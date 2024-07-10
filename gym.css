@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(217, 216, 216);
+}
+
+header{
+    background-color: rgb(46, 46, 72);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 5rem;
+}
+
+#navbar ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left:1.4rem;
+}
+header button{
+    background-color: rgb(233, 39, 39);
+    border: none;
+    padding: 1rem 1.8rem;
+    border-radius:40px;
+}
+header button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+#front {
+     background-image: url(https://cdn.pixabay.com/photo/2024/03/30/19/29/ai-generated-8665327_640.png);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 33rem;
+}
+#front h1{
+    padding-top:19rem;
+    padding-left: 2rem;
+    text-shadow: 4px 4px 5px black;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+#front p{
+    color: #fff;
+    font-size: 18px;
+    width: 40%;
+    text-align: center;
+    margin: 0.5rem 3rem;
+}
+#mainbox{
+background-image: url(https://cdn.pixabay.com/photo/2022/04/07/23/28/pastels-7118442_640.png);
+    background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#details{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 4rem 5rem;
+    
+}
+
+#img-about h2{
+  font-size:2.5rem;
+  color: #9c1e1e;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+#img-about p{
+    padding: 1rem 2rem;
+    font-size:15px;
+  color: #941111;
+}
+
+#img-about button{
+    background-color: rgb(233, 39, 39);
+    border: none;
+    padding:0.3rem 1rem;
+    border-radius:5px;
+    margin:1.5rem 2rem;
+}
+#img-about button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#mans{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.builders img{
+    border: 4px solid rgb(156, 154, 151);
+height:20rem;
+width:15rem;
+}
+.builders h2{
+    text-align: center;
+    color: #9c1e1e;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+}
+#connect{
+    text-align: center;
+    background-color: rgb(15, 15, 107);
+    color: #fff;
+    margin-top: 4rem;
+    height: 15rem;
+}
+#connect h2{
+    font-size: 2.5rem;
+    padding-top: 3rem;
+}
+#s-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#s-media h4{
+margin-top: 1rem ;
+margin-right: 2rem;
+}
+#s-media span{
+margin-top: 1rem;
+margin-right: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+    background-color: rgb(15, 15, 15);
+    height: 23rem;
+}
+ #gym h3{
+font-size: 18px;
+color: rgb(203, 203, 199);
+margin-top: 4rem;
+font-weight: bold;
+}
+ #gym li{
+font-size: 13px;
+color: rgb(162, 162, 159);
+padding-top: 1rem;
+list-style: none;
+font-weight: bold;
+
+}
+ #members h3{
+font-size: 18px;
+color: rgb(203, 203, 199);
+font-weight: bold;
+margin-top: 4rem;
+}
+#members li{
+    font-size: 13px;
+    color: rgb(162, 162, 159);
+font-weight: bold;
+padding-top: 1rem;
+list-style: none;
+}
+ #company{
+    width: 18rem;
+ }
+ #company h3{
+font-size: 18px;
+color: rgb(203, 203, 199);
+font-weight: bold;
+margin-top: 4rem;
+}
+#company li{
+    font-size:13px;
+    color: rgb(162, 162, 159);
+list-style: none;
+font-weight: bold;
+padding-top: 1rem;
+}
+#icon{
+    padding: 4rem 4rem;
+}
+#icon span{
+    border: 2px solid rgb(161, 159, 159);
+    border-radius: 50%;
+    padding: 7px 7px ;
+    margin-right:7px;
+}
+#icon span i{
+    font-size:17px;
+    color: rgb(179, 173, 173);
+}
+
+
