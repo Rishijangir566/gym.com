@@ -4,15 +4,16 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(217, 216, 216);
+    background-color: rgb(212, 82, 82);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
 header{
     background-color: rgb(46, 46, 72);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 5rem;
+    padding: 0 3rem;
 }
 
 #navbar ul{
@@ -36,7 +37,7 @@ header button{
 }
 header button a{
     text-decoration: none;
-    color: #fff;
+    color: #fff9f9;
     font-size: 15px;
     font-weight: bold;
 }
@@ -45,6 +46,7 @@ header button a{
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
+     z-index:1;
      height: 33rem;
 }
 #front h1{
@@ -53,14 +55,27 @@ header button a{
     text-shadow: 4px 4px 5px black;
     font-size: 3rem;
     font-weight: bold;
-    color: #ffffff;
+    color: #cccaca;
 }
 #front p{
-    color: #fff;
+    color: #cccaca;
     font-size: 18px;
     width: 40%;
     text-align: center;
     margin: 0.5rem 3rem;
+}
+#front button{
+    background-color: rgb(244, 14, 14);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius:18px;
+    margin:0.6rem 15rem;
+}
+#front button a{
+    text-decoration: none;
+    color: #fff9f9;
+    font-size: 15px;
+    font-weight: bold;
 }
 #mainbox{
 background-image: url(https://cdn.pixabay.com/photo/2022/04/07/23/28/pastels-7118442_640.png);
@@ -79,8 +94,8 @@ background-image: url(https://cdn.pixabay.com/photo/2022/04/07/23/28/pastels-711
 #img-about h2{
   font-size:2.5rem;
   color: #9c1e1e;
-  padding-bottom: 1rem;
   padding-left: 2rem;
+  margin-top: 8px;
 }
 #img-about p{
     padding: 1rem 2rem;
@@ -100,12 +115,18 @@ background-image: url(https://cdn.pixabay.com/photo/2022/04/07/23/28/pastels-711
     color: #ffffff;
     font-size: 18px;
 }
-
 #mans{
+    padding: 4rem 0;
+}
+#mans .heading h2{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+}
+#mans section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding-top: 4rem;
 }
 
 .builders img{
@@ -115,7 +136,7 @@ width:15rem;
 }
 .builders h2{
     text-align: center;
-    color: #9c1e1e;
+    color: #ffffff;
     font-size: 1.6rem;
     padding-top: 1rem;
 }
@@ -142,6 +163,13 @@ margin-right: 2rem;
 #s-media span{
 margin-top: 1rem;
 margin-right: 5px;
+}
+.location{
+   margin:2rem 4rem;
+   border-radius: 23px;
+}.location iframe{
+    border-radius: 23px;
+   box-shadow: 4px 4px 7px black;
 }
 footer{
     display: flex;
