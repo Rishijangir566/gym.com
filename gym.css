@@ -45,6 +45,7 @@ header button a{
     height: 30px;
     width: 30px;
     border-radius:50%;
+    margin-right:1rem;
 }
 #front {
      background-image: url(https://cdn.pixabay.com/photo/2024/03/30/19/29/ai-generated-8665327_640.png);
@@ -176,6 +177,9 @@ margin-right: 5px;
     border-radius: 23px;
     margin:2rem 1rem;
    box-shadow: 4px 4px 7px black;
+   height: 5rem;
+   width:1100px;
+   margin: 1rem 0 1rem 6rem; 
 }
 footer{
     display: flex;
@@ -243,7 +247,7 @@ padding-top: 1rem;
 
 @media all and (max-width:1250px){
     .location iframe{
-        width:60rem;
+        width:950px;
         margin-left:6rem;
     }
     #img-about h2{
@@ -258,7 +262,7 @@ padding-top: 1rem;
 }
 @media all and (max-width:1100px){
     .location iframe{
-        width:50rem;
+        width:850px;
         margin-left:6rem;
     }
 #navbar ul li a{
@@ -275,8 +279,8 @@ padding-top: 1rem;
 
 @media all and (max-width:975px){
     .location iframe{
-        width:40rem;
-        margin-left: 6rem;
+        width:700px;
+        margin-left: 5rem;
     }
 header{
   flex-direction: column;
@@ -318,8 +322,8 @@ header{
 
 @media all and (max-width:825px){
     .location iframe{
-        width:25rem;
-        margin-left:5rem;
+        width:550px;
+        margin-left:6rem;
     }
     footer{
         flex-direction: column;
@@ -336,6 +340,10 @@ header{
 }
 
 @media all and (max-width:680px){
+    .location iframe{
+        width:400px;
+        margin-left:4.5rem;
+    }
     #navbar ul {
     display: none;
     }
@@ -361,6 +369,10 @@ header{
 }
 
 @media all and (max-width:510px){
+    .location iframe{
+        width:280px;
+        margin-left:4rem;
+    }
 #front h1{
     font-size: 1.5rem;
     padding-left: 0.5rem;
@@ -384,20 +396,21 @@ header{
     width:20rem;
    }
    
-.location iframe{
-    width:auto;
-    margin-left: 0.2rem;
-}
 #connect h2{
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
-#s-media{
-    flex-direction: column;
-}
+
+
 #s-media h4{
-    margin-right: 0;
-    margin-bottom:1rem ;
+    font-size:13px;
+    margin-right:0.8rem;
+    margin-bottom: 1rem;
 }
+#s-media span{
+    margin-bottom: 1rem;
+}
+
 
 #connect{
     height: auto;
@@ -407,7 +420,7 @@ header{
    }
 }
 
-@media all and (max-width:350px){
+@media all and (max-width:360px){
    #front h1{
     font-size:1rem;
    }
@@ -428,7 +441,8 @@ header{
     width:16rem;
    }
    .location iframe{
-    width:16rem;
+    width:200px;
+    margin-left: 2rem;
 }
 #img-about p{
     display: none;
