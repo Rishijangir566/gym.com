@@ -2,21 +2,20 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Roboto;
 }
 body{
     background-color: rgb(212, 82, 82);
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header{
     background-color: rgb(46, 46, 72);
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    height: 5rem;
-    padding: 0 3rem;
+    padding: 1rem 3rem;
 }
 
-#navbar ul{
+ #navbar ul {
   display: flex;
   list-style: none;
   justify-content: center;
@@ -40,6 +39,12 @@ header button a{
     color: #fff9f9;
     font-size: 15px;
     font-weight: bold;
+}
+.menu img{
+    display:none;
+    height: 30px;
+    width: 30px;
+    border-radius:50%;
 }
 #front {
      background-image: url(https://cdn.pixabay.com/photo/2024/03/30/19/29/ai-generated-8665327_640.png);
@@ -165,10 +170,11 @@ margin-top: 1rem;
 margin-right: 5px;
 }
 .location{
-   margin:2rem 4rem;
-   border-radius: 23px;
-}.location iframe{
+    /* border-radius: 23px; */
+}
+.location iframe{
     border-radius: 23px;
+    margin:2rem 1rem;
    box-shadow: 4px 4px 7px black;
 }
 footer{
@@ -235,4 +241,197 @@ padding-top: 1rem;
     color: rgb(179, 173, 173);
 }
 
+@media all and (max-width:1250px){
+    .location iframe{
+        width:60rem;
+        margin-left:6rem;
+    }
+    #img-about h2{
+        font-size: 2rem;
+    }
+#img-about p{
+     padding: 0.5rem 2rem;
+}
+#img-about button{
+  margin-top: 0.5rem;
+}
+}
+@media all and (max-width:1100px){
+    .location iframe{
+        width:50rem;
+        margin-left:6rem;
+    }
+#navbar ul li a{
+    padding-left:1rem;
+    font-size: 15px;
+}
+#front button{
+    margin:0.6rem 10rem;
+}
+#front h1{
+    font-size: 2.5rem;
+}
+}
+
+@media all and (max-width:975px){
+    .location iframe{
+        width:40rem;
+        margin-left: 6rem;
+    }
+header{
+  flex-direction: column;
+  justify-content: center;
+}
+#mans section{
+    flex-direction: column;
+}
+.builders img{
+    width: 100%;
+    height: 100%;
+}
+.builders h2{
+    text-align: center;
+    color: #ffffff;
+    font-size:2rem;
+    padding: 1rem;
+}
+#img-about p{
+    width:25rem;
+    padding-left: 0;
+}
+#details{
+    flex-direction: column;
+    padding: 1rem 0 ;
+    
+}
+#img-about h2{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    width:23rem;
+}
+#img-about button {
+    margin: 0.3rem 0;
+
+}
+
+}
+
+@media all and (max-width:825px){
+    .location iframe{
+        width:25rem;
+        margin-left:5rem;
+    }
+    footer{
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+    }
+    #company, #gym, #members, #icon{
+        width:100%;
+     }
+     header{
+        padding: 1rem 0.2rem;
+     }
+     
+}
+
+@media all and (max-width:680px){
+    #navbar ul {
+    display: none;
+    }
+    header{
+     flex-direction: row;
+     justify-content: space-between;
+    }
+    .menu img{
+        display: block;
+
+    }
+    #front h1{
+     font-size: 2rem;
+     
+    }
+    #front p{
+     width: 70%;
+     margin-left: 2rem;
+    }
+    #front button{
+        padding: 0.5rem 1rem;
+    }    
+}
+
+@media all and (max-width:510px){
+#front h1{
+    font-size: 1.5rem;
+    padding-left: 0.5rem;
+}
+#front p{
+ padding-left: 0.5rem;
+ width:60%;
+}
+#front button{
+ margin-left: 5rem;
+}
+#dtl-img iframe{
+ height: 150px;
+ width:330px;
+}  
+   
+.location iframe{
+    width:auto;
+    margin-left: 0.2rem;
+}
+#connect h2{
+    font-size: 2rem;
+}
+}
+@media all and (max-width:450px){
+    #s-media{
+        flex-direction: column;
+    }
+    #s-media h4{
+        margin-right: 0;
+        margin-bottom:1rem ;
+    }
+    #img-about h2{
+        font-size:1.3rem ;
+        width:16rem;
+       }
+    #img-about p{
+        width:20rem;
+       }
+    #connect{
+        height: auto;
+    }
+    #front button{
+        margin-left:1rem;
+       }
+}
+@media all and (max-width:350px){
+   #front h1{
+    font-size:1rem;
+   }
+   #front p{
+    padding-left: 0;
+    width:55%;
+    font-size: 10px;
+   }
+  #front button a{
+    font-size: 10px;
+  }
+  #dtl-img iframe{
+    height: 100px;
+    width:250px;
+   }  
+   #img-about h2{
+    font-size:1rem ;
+    width:16rem;
+   }
+   .location iframe{
+    width:16rem;
+}
+#img-about p{
+    display: none;
+}
+}
 
