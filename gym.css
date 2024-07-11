@@ -154,7 +154,7 @@ width:15rem;
 }
 #connect h2{
     font-size: 2.5rem;
-    padding-top: 3rem;
+    padding: 3rem 1rem;
 }
 #s-media{
     display: flex;
@@ -376,6 +376,13 @@ header{
  height: 150px;
  width:330px;
 }  
+#img-about h2{
+    font-size:1.3rem ;
+    width:15rem;
+   }
+#img-about p{
+    width:20rem;
+   }
    
 .location iframe{
     width:auto;
@@ -384,29 +391,22 @@ header{
 #connect h2{
     font-size: 2rem;
 }
+#s-media{
+    flex-direction: column;
 }
-@media all and (max-width:450px){
-    #s-media{
-        flex-direction: column;
-    }
-    #s-media h4{
-        margin-right: 0;
-        margin-bottom:1rem ;
-    }
-    #img-about h2{
-        font-size:1.3rem ;
-        width:16rem;
-       }
-    #img-about p{
-        width:20rem;
-       }
-    #connect{
-        height: auto;
-    }
-    #front button{
-        margin-left:1rem;
-       }
+#s-media h4{
+    margin-right: 0;
+    margin-bottom:1rem ;
 }
+
+#connect{
+    height: auto;
+}
+#front button{
+    margin-left:1rem;
+   }
+}
+
 @media all and (max-width:350px){
    #front h1{
     font-size:1rem;
